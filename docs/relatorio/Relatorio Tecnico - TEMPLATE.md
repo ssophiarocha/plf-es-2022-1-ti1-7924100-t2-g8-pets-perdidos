@@ -81,7 +81,7 @@ A Câmara Municipal de São Paulo tem em seu site: "A quantidade de animais solt
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A consolidação desse projeto e seus principais objetivos foram estruturados através da busca pelos integrantes do grupo através de entrevistas e questionários, dando origem às personas, que são pessoas que perderam o seu pet ou encontram um pet, o que seriam possíveis usuários da plataforma e dessa forma colaborou para o entendimento do grupo da importância desta plataforma. 
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -89,8 +89,18 @@ A Câmara Municipal de São Paulo tem em seu site: "A quantidade de animais solt
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+###Patrícia
 
+-> Patrícia tem 46 anos, a mesma trabalha em um abrigo de animais. Possui uma personalidade muito forte e decisiva. Ela adora ler livros e jornais, ver filmes e séries, em seu tempo livre passa seu tempo navegando em suas redes sociais. O atual trabalho dela no abrigo, o principal meio de divulgação dos animais são através  do instagram e do facebook. Os objetivos chave, para ela, na utilização desse serviço seria ter uma plataforma única para divulgar pets encontrados por eles e divulgar também animais resgatados que estão disponíveis para adoção. Esse serviço facilitaria a disseminação dessas informações para mais pessoas com mais rapidez.
+
+###Tatiane
+-> Tatiane tem 27 anos, a mesma trabalha como advogada e adora os seus pets. Ela tem uma personalidade intensa, decisiva, honesta e corre muito atrás das coisas que ama e deseja conquistar. A mesma gosta de se informar das últimas notícias e estar atualizada em suas redes sociais. Houve uma época em que ela perdeu sua cachorrinha e recorreu às redes sociais como uma forma de encontrá-la. Felizmente a sua ação teve êxito e ela conseguiu encontrar a sua pet, mas Tatiane afirma que se houvesse uma plataforma exclusiva para divulgar animais perdidos e encontrados seria um grande facilitador na ajuda dos mesmos. 
+
+###Sandra
+-> Sandra tem 39 anos e trabalha como enfermeira. A mesma tem uma personalidade calma e apaziguante. Ela vive com animais de estimação ao seu redor. Sandra gosta de ver as notícias pelo seu smartphone e assiste aos jornais pela TV. A entrevistada  já perdeu sua pet e infelizmente não a encontrou novamente, e afirma que se houvesse uma plataforma exclusiva para esse tipo de busca, seria de grande ajuda para tentar encontrar sua animalzinha.
+
+###Sandro 
+-> Sandro tem 51 anos e trabalha como gerente de vendas. O mesmo tem uma personalidade “estourada” mas uma pessoa ao mesmo tempo amável com as pessoas à sua volta. Os pilares mais importantes de sua vida são seu trabalho, a sua família e seus pets. Sandro utiliza bastante o seu Smartphone para meios profissionais e para descontração. Ele encontrou um pet perdido na rua e decidiu ajudar o animal. De acordo com o entrevistado uma plataforma exclusiva para esse tipo de finalidade, ajudaria a encaminhar pets perdidos para as suas famílias ou até mesmo um novo lar. 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
 > você deve ser enumerar e descrever precisamente e de forma
@@ -119,10 +129,12 @@ A Câmara Municipal de São Paulo tem em seu site: "A quantidade de animais solt
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|PERSONA:|QUERO/PRECISO:|MOTIVO/VALOR:|
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Patría|De uma plataforma, conectada com as redes sociais para divulgar animais disponíveis para a adoção|Para garantir a difusão de informação para o maior número de pessoas possível|
+|Sandra|De algo que me direcione para os melhores lugares para procurar o animal que perdi, pela localização|Para melhorar as minhas chances de encontrar o animal no menor tempo possível|
+|Tatiane|De uma plataforma que me ajude nas buscas pela minha cachorrinha considerando as características dela|Para facilitar a minha busca|
+|Sandro|De uma plataforma que me ajude a divulgar que encontrei um animal e que estou procurando um dono para ele|Para conseguir um lar seguro para os pets que encontro|
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
