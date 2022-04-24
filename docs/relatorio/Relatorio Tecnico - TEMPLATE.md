@@ -1,11 +1,8 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`FindMe`  
 
-FindMe
+`Engenhria de Software` 
 
-`CURSO` 
-
-Engenharia de Software
 
 ## Participantes
 > Os membros do grupo são: 
@@ -89,45 +86,20 @@ A consolidação desse projeto e seus principais objetivos foram estruturados at
 
 ## Personas e Mapas de Empatia
 
-*Patrícia*
-
+**Patrícia**
 -> Patrícia tem 46 anos, a mesma trabalha em um abrigo de animais. Possui uma personalidade muito forte e decisiva. Ela adora ler livros e jornais, ver filmes e séries, em seu tempo livre passa seu tempo navegando em suas redes sociais. O atual trabalho dela no abrigo, o principal meio de divulgação dos animais são através  do instagram e do facebook. Os objetivos chave, para ela, na utilização desse serviço seria ter uma plataforma única para divulgar pets encontrados por eles e divulgar também animais resgatados que estão disponíveis para adoção. Esse serviço facilitaria a disseminação dessas informações para mais pessoas com mais rapidez.
 
-*Tatiane*
+**Tatiane**
 -> Tatiane tem 27 anos, a mesma trabalha como advogada e adora os seus pets. Ela tem uma personalidade intensa, decisiva, honesta e corre muito atrás das coisas que ama e deseja conquistar. A mesma gosta de se informar das últimas notícias e estar atualizada em suas redes sociais. Houve uma época em que ela perdeu sua cachorrinha e recorreu às redes sociais como uma forma de encontrá-la. Felizmente a sua ação teve êxito e ela conseguiu encontrar a sua pet, mas Tatiane afirma que se houvesse uma plataforma exclusiva para divulgar animais perdidos e encontrados seria um grande facilitador na ajuda dos mesmos. 
 
-*Sandra*
+**Sandra**
 -> Sandra tem 39 anos e trabalha como enfermeira. A mesma tem uma personalidade calma e apaziguante. Ela vive com animais de estimação ao seu redor. Sandra gosta de ver as notícias pelo seu smartphone e assiste aos jornais pela TV. A entrevistada  já perdeu sua pet e infelizmente não a encontrou novamente, e afirma que se houvesse uma plataforma exclusiva para esse tipo de busca, seria de grande ajuda para tentar encontrar sua animalzinha.
 
-*Sandro* 
+**Sandro**
 -> Sandro tem 51 anos e trabalha como gerente de vendas. O mesmo tem uma personalidade “estourada” mas uma pessoa ao mesmo tempo amável com as pessoas à sua volta. Os pilares mais importantes de sua vida são seu trabalho, a sua família e seus pets. Sandro utiliza bastante o seu Smartphone para meios profissionais e para descontração. Ele encontrou um pet perdido na rua e decidiu ajudar o animal. De acordo com o entrevistado uma plataforma exclusiva para esse tipo de finalidade, ajudaria a encaminhar pets perdidos para as suas famílias ou até mesmo um novo lar. 
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
 
 ## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |PERSONA:|QUERO/PRECISO:|MOTIVO/VALOR:|
 |--------------------|------------------------------------|----------------------------------------|
@@ -136,20 +108,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Tatiane|De uma plataforma que me ajude nas buscas pela minha cachorrinha considerando as características dela|Para facilitar a minha busca|
 |Sandro|De uma plataforma que me ajude a divulgar que encontrei um animal e que estou procurando um dono para ele|Para conseguir um lar seguro para os pets que encontro|
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
 A funcionalidade do projeto é mediada através de requisitos feitos pelo cliente entrevistado. Os requisitos funcionais descrevem o que o software deve fazer, já os requisitos não-funcionais quantificam determinados aspectos do comportamento do sistema.
+
 
 ### Requisitos Funcionais
 
@@ -168,7 +131,6 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 |RNF-002| Deve haver interação com algumas ferramentas (ex: gmail) para facilitar o login |  ALTA | 
 |RNF-003| O carregamento de qualquer informação deve demorar até três segundos | MÉDIA |
 
-
 ## Restrições
 
 |ID| Restrição                                             |
@@ -176,14 +138,6 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 |01| O projeto deve ser finalizado e entregue no final do semestre letivo (07/07/2022). |
 |02| Não será permitido o uso de outras tecnologias que vão além do básico do desenvolvimento Web FrontEnd. |
 |03| Não será permitido a terceirização na construção do projeto, além dos integrantes do grupo. |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 # Projeto de Interface
@@ -197,7 +151,7 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
