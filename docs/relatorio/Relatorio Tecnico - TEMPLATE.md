@@ -62,50 +62,15 @@ Sob essa ótica, o Brasil se encontra presente em dois grandes empecilhos ao se 
 -> O excesso de animais sem donos nas ruas e em ONGs.
 
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 Assim, surge a necessidade de haver uma plataforma focada, em não só ajudar os animais de estimação perdidos a reencontrar os seus respectivos donos, mas também ajudar animais abandonados e encontrados nas ruas a terem um novo lar e direito à uma melhor qualidade de vida. 
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
 A Câmara Municipal de São Paulo tem em seu site: "A quantidade de animais soltos na capital é grande, mas desconhecida, e o abrigo do CCZ opera com capacidade máxima". Consequentemente, essa matéria representa uma questão problemática que abrange todo o Brasil, uma vez que não é somente o Estado de São Paulo que divulga publicamente resolução do problema que tanto os abrigos, quanto as ruas, são livres de animais de estimação em situações degradantes.
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -113,21 +78,6 @@ A Câmara Municipal de São Paulo tem em seu site: "A quantidade de animais solt
 -> Pessoas que perderam seus animais de estimação.
 -> Pessoas que encontraram pets perdidos e procuram por seus donos.
 
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
@@ -187,15 +137,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+A funcionalidade do projeto é mediada através de requisitos feitos pelo cliente entrevistado. Os requisitos funcionais descrevem o que o software deve fazer, já os requisitos não-funcionais quantificam determinados aspectos do comportamento do sistema.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
+|ID    | Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Cadastrar usuários mediante suas necessidades | ALTA | 
+|RF-002| Mostrar os pets perdidos que estão próximos | MÉDIA |
+|RF-003| Cadastrar o pet com suas características| Alta |
+|RF-004| Quando o animal for encontrado, o anúncio deve ser removido | Média |
 
 ### Requisitos não Funcionais
 
