@@ -145,46 +145,25 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 |------|-----------------------------------------|----|
 |RF-001| Cadastrar usuários mediante suas necessidades | ALTA | 
 |RF-002| Mostrar os pets perdidos que estão próximos | MÉDIA |
-|RF-003| Cadastrar o pet com suas características| Alta |
-|RF-004| Quando o animal for encontrado, o anúncio deve ser removido | Média |
+|RF-003| Cadastrar o pet com suas características| ALTA |
+|RF-004| Quando o animal for encontrado, o anúncio deve ser removido | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RNF-001| Ambos os cadastros não devem demorar mais de 5 minutos | MÉDIA | 
+|RNF-002| Deve haver interação com algumas ferramentas (ex: gmail) para facilitar o login |  ALTA | 
+|RNF-003| O carregamento de qualquer informação deve demorar até três segundos | MÉDIA |
 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deve ser finalizado e entregue no final do semestre letivo (07/07/2022). |
+|02| Não será permitido o uso de outras tecnologias que vão além do básico do desenvolvimento Web FrontEnd. |
+|03| Não será permitido a terceirização na construção do projeto, além dos integrantes do grupo. |
 
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
