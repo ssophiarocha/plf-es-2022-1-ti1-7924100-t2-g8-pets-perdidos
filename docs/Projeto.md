@@ -27,3 +27,8 @@ Primeiro período
 2. [Especificações](especificacao.md)
 3. [Projeto de Interface](interface.md)
 4. [Gestão de Configuraçõe](gestao-de-configuracao.md)
+5. [Gerenciamento de Projeto](Gerenciamento-Projeto.md)
+6. [Implementação](Implementação.md)
+7. [Testes e Avaliação](Testes.md)
+8. [Referências](Referências.md)
+9. [Apresentação](Apresentação.md)
