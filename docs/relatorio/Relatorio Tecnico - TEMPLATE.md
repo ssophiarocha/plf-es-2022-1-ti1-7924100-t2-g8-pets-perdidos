@@ -8,20 +8,14 @@ FindMe
 Engenharia de Software
 
 ## Participantes
-Os membros do grupo são:
-
-Alice Rodrigues
-Juliana Serra
-Lucas Tabosa
-Rafael Vitoretti
-Sophia Rocha
-Vinícius Gonzaga 
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+>
+> - Alice Rodrigues
+> - Juliana Serra
+> - Lucas Tabosa
+> - Rafael Vitoretti
+> - Sophia Rocha
+> - Vinícius Gonzaga 
 
 # Estrutura do Documento
 
