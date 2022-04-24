@@ -1,15 +1,21 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+FindMe
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Engenharia de Software
 
 ## Participantes
+Os membros do grupo são:
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Alice Rodrigues
+Juliana Serra
+Lucas Tabosa
+Rafael Vitoretti
+Sophia Rocha
+Vinícius Gonzaga 
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
@@ -53,10 +59,14 @@
 
 
 # Introdução
+Mediante o portal  G1, o Brasil possui 170 mil animais abandonados sob cuidado de ONGs, sem contar com todos os animais que ainda estão nas ruas por terem se perdido de seus donos originais. 
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Sob essa ótica, o Brasil se encontra presente em dois grandes empecilhos ao se tratar de animais de estimação:
+-> A dificuldade de donos de animais perdidos reencontrar os seus bichinhos.
+-> O excesso de animais sem donos nas ruas e em ONGs.
+
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -76,7 +86,7 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Assim, surge a necessidade de haver uma plataforma focada, em não só ajudar os animais de estimação perdidos a reencontrar os seus respectivos donos, mas também ajudar animais abandonados e encontrados nas ruas a terem um novo lar e direito à uma melhor qualidade de vida. 
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -89,7 +99,7 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A Câmara Municipal de São Paulo tem em seu site: "A quantidade de animais soltos na capital é grande, mas desconhecida, e o abrigo do CCZ opera com capacidade máxima". Consequentemente, essa matéria representa uma questão problemática que abrange todo o Brasil, uma vez que não é somente o Estado de São Paulo que divulga publicamente resolução do problema que tanto os abrigos, quanto as ruas, são livres de animais de estimação em situações degradantes.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -105,7 +115,10 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+-> Donos de Abrigos.
+-> Pessoas que perderam seus animais de estimação.
+-> Pessoas que encontraram pets perdidos e procuram por seus donos.
+
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
