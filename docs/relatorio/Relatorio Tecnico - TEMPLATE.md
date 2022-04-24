@@ -89,17 +89,17 @@ A consolidação desse projeto e seus principais objetivos foram estruturados at
 
 ## Personas e Mapas de Empatia
 
-###Patrícia
+*Patrícia*
 
 -> Patrícia tem 46 anos, a mesma trabalha em um abrigo de animais. Possui uma personalidade muito forte e decisiva. Ela adora ler livros e jornais, ver filmes e séries, em seu tempo livre passa seu tempo navegando em suas redes sociais. O atual trabalho dela no abrigo, o principal meio de divulgação dos animais são através  do instagram e do facebook. Os objetivos chave, para ela, na utilização desse serviço seria ter uma plataforma única para divulgar pets encontrados por eles e divulgar também animais resgatados que estão disponíveis para adoção. Esse serviço facilitaria a disseminação dessas informações para mais pessoas com mais rapidez.
 
-###Tatiane
+*Tatiane*
 -> Tatiane tem 27 anos, a mesma trabalha como advogada e adora os seus pets. Ela tem uma personalidade intensa, decisiva, honesta e corre muito atrás das coisas que ama e deseja conquistar. A mesma gosta de se informar das últimas notícias e estar atualizada em suas redes sociais. Houve uma época em que ela perdeu sua cachorrinha e recorreu às redes sociais como uma forma de encontrá-la. Felizmente a sua ação teve êxito e ela conseguiu encontrar a sua pet, mas Tatiane afirma que se houvesse uma plataforma exclusiva para divulgar animais perdidos e encontrados seria um grande facilitador na ajuda dos mesmos. 
 
-###Sandra
+*Sandra*
 -> Sandra tem 39 anos e trabalha como enfermeira. A mesma tem uma personalidade calma e apaziguante. Ela vive com animais de estimação ao seu redor. Sandra gosta de ver as notícias pelo seu smartphone e assiste aos jornais pela TV. A entrevistada  já perdeu sua pet e infelizmente não a encontrou novamente, e afirma que se houvesse uma plataforma exclusiva para esse tipo de busca, seria de grande ajuda para tentar encontrar sua animalzinha.
 
-###Sandro 
+*Sandro* 
 -> Sandro tem 51 anos e trabalha como gerente de vendas. O mesmo tem uma personalidade “estourada” mas uma pessoa ao mesmo tempo amável com as pessoas à sua volta. Os pilares mais importantes de sua vida são seu trabalho, a sua família e seus pets. Sandro utiliza bastante o seu Smartphone para meios profissionais e para descontração. Ele encontrou um pet perdido na rua e decidiu ajudar o animal. De acordo com o entrevistado uma plataforma exclusiva para esse tipo de finalidade, ajudaria a encaminhar pets perdidos para as suas famílias ou até mesmo um novo lar. 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
@@ -236,7 +236,14 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Durante a etapa de idealização do nosso projeto, utilizamos o método de
+“Design Thinking” , que foi organizado pela plataforma “Miro”. Com ele, entender os fatores que definem o nosso problema, e, com isso, pensar nas melhores soluções para a pauta em questão “os pets perdidos”. Na etapa de desenvolvimento, dentro dos moldes do Scrum, no qual o trabalho é organizado por sprints, reuniões com periodicidade semanal e liberação de resultados incrementais ao longo do tempo. Nesse processo, organizamos nossas pendências e afazeres pelo quadro do Kanban, na plataforma “Trello".
+
+*Ambiente de Trabalho:*
+-> Repositório de código fonte: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos
+-> Documentos do Projeto: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos/tree/master/docs
+-> Projetos de Wireframe: "link"
+-> Gerenciamento do Projeto: https://trello.com/b/4O1ZILQt/kanban-tiaw-pets-perdidos
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -256,7 +263,25 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+*Gerenciamento do Projeto*
+-> Foi utilizado o método ágil Scrum para o desenvolvimento desse projeto.
+Equipe:
+Scrum Master: Rommel Vieira Carneiro
+Equipe de desenvolvimento: 
+Alice Rodrigues
+Juliana Serra
+Lucas Tabosa
+Rafael Vitoretti
+Sophia Rocha
+Vinícius Gonzaga 
+
+A organização do projeto foi dividida em categorias sendo elas:
+
+-> Backlog: Nesse quadro é mantido todas as tarefas que devem ser feitas até o final da sprint, onde cada integrante da equipe de desenvolvimento seleciona no máximo dois itens por vez para ser feito.
+-> Para Fazer: Nesse quadro fica os itens selecionados pelo integrante que ainda deve ser feito.
+-> Fazendo: Nesse quadro fica a tarefa que está feita pelo integrante que a selecionou.
+-> Checagem de Qualidade: Nesse quadro fica as tarefas que já foram concluídas mas antes devem ser conferidas por outro desenvolvedor para corrigir erros se necessário que não foram observados anteriormente.
+-> Feito: Nesse quadro fica todas as tarefas que já foram feitas pela equipe de desenvolvimento.
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -271,10 +296,10 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Documentos do Projeto|GitHub|https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos/tree/master/docs|
+|Repositório de código|GitHub|https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos| 
+|Projetos de Wireframe:||| 
+|Gerenciamento do Projeto:|Trello|https://trello.com/b/4O1ZILQt/kanban-tiaw-pets-perdidos| 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
@@ -414,7 +439,9 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+-> Brasil tem mais de 170 mil animais abandonados sob cuidado de ONGs, aponta instituto: https://g1.globo.com/sp/sao-paulo/noticia/2019/08/18/brasil-tem-mais-de-170-mil-animais-abandonados-sob-cuidado-de-ongs-aponta-instituto.ghtml
+
+-> Entrevistados: Patrícia, Sandra, Sandro e Tatiane. 
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
