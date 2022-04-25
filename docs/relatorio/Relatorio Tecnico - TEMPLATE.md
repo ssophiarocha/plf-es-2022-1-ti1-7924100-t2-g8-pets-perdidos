@@ -144,31 +144,28 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
  
 **Tela - Home Page**
 Essa é a tela principal da plataforma, é por onde os usuários têm o primeiro contato com a plataforma em si. Nesta tela os usuários podem fazer login em suas contas já existentes, podem cadastrar seus pets que foram perdidos ou também cadastrar um animal que foi encontrado e procura por seu dono. Nesta tela também há o catálogo dos animais que estão perdidos e foram cadastrados por outras pessoas e animais que foram encontrados e estão sob cuidados de outros usuários que buscam pelos donos originais dos pets.
-![PÁGINA PRINCIPAL](/image/PÁGINA PRINCIPAL.png)
+> ![PÁGINA PRINCIPAL](https://user-images.githubusercontent.com/80273083/165004501-e9e765bd-c1a1-4d53-a9e6-15ae34c13a17.png)
 
 **Tela - Login**
 Nesta tela o usuário poderá fazer login na plataforma, ou pode clicar no botão para se cadastrar caso não tenha uma conta já existente.
-![LOGIN FINDME](/image/LOGIN FINDME.png)
+> ![LOGIN FINDME](https://user-images.githubusercontent.com/80273083/165004589-5a39c112-fa6b-4c00-a5c3-192b28c3aa4b.png)
 
 **Tela - Cadastro**
 Nesta tela o usuário preencherá os campos em branco com suas informações para se cadastrar na plataforma e receber notificações futuras.
-![CADASTRO FINDME](/image/CADASTRO FINDME.png)
+> ![CADASTRO FINDME](https://user-images.githubusercontent.com/80273083/165004616-86090a2d-c2e1-4152-a4d3-f0ae80e58888.png)
 
 **Tela - Cadastrar Pets**
 Esta tela será aberta quando o usuário selecionar se deseja cadastrar um pet que foi encontrado ou se deseja cadastrar um animal que foi perdido, para que outras pessoas possam encontrá-lo de acordo com suas características descritas pelo dono.
-![CADASTRO PET 01](/image/CADASTRO PET 01.png)
+> ![CADASTRO PET 01](https://user-images.githubusercontent.com/80273083/165004445-0b396d2d-4810-4329-a33b-a2e5e94e2ce0.png)
+> ![CADASTRO PET 02](https://user-images.githubusercontent.com/80273083/165004712-7d58fb4e-2bd0-4f01-8b42-defcb4b57adf.png)
 
-**Tela - Cadastrar Pets**
-Esta tela será aberta quando o usuário selecionar se deseja cadastrar um pet que foi encontrado ou se deseja cadastrar um animal que foi perdido, para que outras pessoas possam encontrá-lo de acordo com suas características descritas pelo dono.
-![CADASTRO PET 02](/image/CADASTRO PET 02.png)
-
-Tela - Ver Mais Pets
+**Tela - Ver Mais Pets**
 Esta tela aparecerá quando o usuário clicar em “ver mais”, tanto para pets perdidos quanto para pets que foram encontrados. Você poderá buscar por algum pet em específico através de suas características descritas por seu dono, ou por quem o encontrou.
-![PETS PERDIDOS](/image/PETS PERDIDOS.png)
+![PETS PERDIDOS](https://user-images.githubusercontent.com/80273083/165004739-09c7baf9-c722-40ee-b4ea-d14f453c183b.png)
 
 **Tela - Informações do Animal**
 Será aberto nesta tela ao clicar em algum dos cards de algum pet. É onde ficarão as informações do pet, fotos e também formas de contato com a pessoa que cadastrou esse pet. Funcionará tanto para pets perdidos quanto para pets encontrados.
-![INFO PETS](/image/INFO PETS.png)
+> ![INFO PETS](https://user-images.githubusercontent.com/80273083/165004762-01d786d2-c7d5-4c83-8262-84430aed52d1.png)
 
 
 ## User Flow
