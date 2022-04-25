@@ -142,28 +142,28 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 
 # Projeto de Interface
  
-**Tela - Home Page**
+**Tela - Home Page:**
 Essa é a tela principal da plataforma, é por onde os usuários têm o primeiro contato com a plataforma em si. Nesta tela os usuários podem fazer login em suas contas já existentes, podem cadastrar seus pets que foram perdidos ou também cadastrar um animal que foi encontrado e procura por seu dono. Nesta tela também há o catálogo dos animais que estão perdidos e foram cadastrados por outras pessoas e animais que foram encontrados e estão sob cuidados de outros usuários que buscam pelos donos originais dos pets.
 > ![PÁGINA PRINCIPAL](https://user-images.githubusercontent.com/80273083/165004501-e9e765bd-c1a1-4d53-a9e6-15ae34c13a17.png)
 
-**Tela - Login**
+**Tela - Login:**
 Nesta tela o usuário poderá fazer login na plataforma, ou pode clicar no botão para se cadastrar caso não tenha uma conta já existente.
 > ![LOGIN FINDME](https://user-images.githubusercontent.com/80273083/165004589-5a39c112-fa6b-4c00-a5c3-192b28c3aa4b.png)
 
-**Tela - Cadastro**
+**Tela - Cadastro:**
 Nesta tela o usuário preencherá os campos em branco com suas informações para se cadastrar na plataforma e receber notificações futuras.
 > ![CADASTRO FINDME](https://user-images.githubusercontent.com/80273083/165004616-86090a2d-c2e1-4152-a4d3-f0ae80e58888.png)
 
-**Tela - Cadastrar Pets**
+**Tela - Cadastrar Pets:**
 Esta tela será aberta quando o usuário selecionar se deseja cadastrar um pet que foi encontrado ou se deseja cadastrar um animal que foi perdido, para que outras pessoas possam encontrá-lo de acordo com suas características descritas pelo dono.
 > ![CADASTRO PET 01](https://user-images.githubusercontent.com/80273083/165004445-0b396d2d-4810-4329-a33b-a2e5e94e2ce0.png)
 > ![CADASTRO PET 02](https://user-images.githubusercontent.com/80273083/165004712-7d58fb4e-2bd0-4f01-8b42-defcb4b57adf.png)
 
-**Tela - Ver Mais Pets**
+**Tela - Ver Mais Pets:**
 Esta tela aparecerá quando o usuário clicar em “ver mais”, tanto para pets perdidos quanto para pets que foram encontrados. Você poderá buscar por algum pet em específico através de suas características descritas por seu dono, ou por quem o encontrou.
 ![PETS PERDIDOS](https://user-images.githubusercontent.com/80273083/165004739-09c7baf9-c722-40ee-b4ea-d14f453c183b.png)
 
-**Tela - Informações do Animal**
+**Tela - Informações do Animal:**
 Será aberto nesta tela ao clicar em algum dos cards de algum pet. É onde ficarão as informações do pet, fotos e também formas de contato com a pessoa que cadastrou esse pet. Funcionará tanto para pets perdidos quanto para pets encontrados.
 > ![INFO PETS](https://user-images.githubusercontent.com/80273083/165004762-01d786d2-c7d5-4c83-8262-84430aed52d1.png)
 
@@ -199,28 +199,22 @@ Durante a etapa de idealização do nosso projeto, utilizamos o método de
 *Gerenciamento do Projeto*
 -> Foi utilizado o método ágil Scrum para o desenvolvimento desse projeto.
 Equipe:
-Scrum Master: Rommel Vieira Carneiro
-Equipe de desenvolvimento: 
-Alice Rodrigues
-Juliana Serra
-Lucas Tabosa
-Rafael Vitoretti
-Sophia Rocha
-Vinícius Gonzaga 
+-> Scrum Master: Rommel Vieira Carneiro
+>Equipe de desenvolvimento: 
+>Alice Rodrigues
+>Juliana Serra
+>Lucas Tabosa
+>Rafael Vitoretti
+>Sophia Rocha
+>Vinícius Gonzaga 
 
-A organização do projeto foi dividida em categorias sendo elas:
+A organização do projeto foi dividida em categorias no quadro do Kanban sendo elas:
 
 -> Backlog: Nesse quadro é mantido todas as tarefas que devem ser feitas até o final da sprint, onde cada integrante da equipe de desenvolvimento seleciona no máximo dois itens por vez para ser feito.
 -> Para Fazer: Nesse quadro fica os itens selecionados pelo integrante que ainda deve ser feito.
 -> Fazendo: Nesse quadro fica a tarefa que está feita pelo integrante que a selecionou.
 -> Checagem de Qualidade: Nesse quadro fica as tarefas que já foram concluídas mas antes devem ser conferidas por outro desenvolvedor para corrigir erros se necessário que não foram observados anteriormente.
 -> Feito: Nesse quadro fica todas as tarefas que já foram feitas pela equipe de desenvolvimento.
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 
 ## Ferramentas
@@ -229,65 +223,12 @@ A organização do projeto foi dividida em categorias sendo elas:
 |-----------|-------------------------|---------------|
 |Documentos do Projeto|GitHub|https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos/tree/master/docs|
 |Repositório de código|GitHub|https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos| 
-|Projetos de Wireframe:||| 
+|Projetos de Wireframe:|Canva|link| 
 |Gerenciamento do Projeto:|Trello|https://trello.com/b/4O1ZILQt/kanban-tiaw-pets-perdidos| 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
 > ![Exemplo de Wireframe](images/Github-Workflow.png)
 
 # **############## SPRINT 1 ACABA AQUI #############**
