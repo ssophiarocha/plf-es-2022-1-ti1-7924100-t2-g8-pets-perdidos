@@ -80,8 +80,8 @@ A Câmara Municipal de São Paulo tem em seu site: "A quantidade de animais solt
 
 A consolidação desse projeto e seus principais objetivos foram estruturados através da busca pelos integrantes do grupo através de entrevistas e questionários, dando origem às personas, que são pessoas que perderam o seu pet ou encontram um pet, o que seriam possíveis usuários da plataforma e dessa forma colaborou para o entendimento do grupo da importância desta plataforma. 
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
+> Apresente uma visão geral do que será abordado nesta parte do \
+> documento, enumerando as técnicas e/ou ferramentas utilizadas para \
 > realizar a especificações do projeto
 
 ## Personas e Mapas de Empatia
