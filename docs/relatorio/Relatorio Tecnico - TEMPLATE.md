@@ -54,8 +54,8 @@ Mediante o portal  G1, o Brasil possui 170 mil animais abandonados sob cuidado d
 
 ## Problema
 
-Sob essa ótica, o Brasil se encontra presente em dois grandes empecilhos ao se tratar de animais de estimação:
--> A dificuldade de donos de animais perdidos reencontrar os seus bichinhos.
+Sob essa ótica, o Brasil se encontra presente em dois grandes empecilhos ao se tratar de animais de estimação: \
+-> A dificuldade de donos de animais perdidos reencontrar os seus bichinhos. \
 -> O excesso de animais sem donos nas ruas e em ONGs.
 
 
@@ -71,8 +71,8 @@ A Câmara Municipal de São Paulo tem em seu site: "A quantidade de animais solt
 
 ## Público-Alvo
 
--> Donos de Abrigos.
--> Pessoas que perderam seus animais de estimação.
+-> Donos de Abrigos. \
+-> Pessoas que perderam seus animais de estimação. \
 -> Pessoas que encontraram pets perdidos e procuram por seus donos.
 
  
@@ -190,34 +190,34 @@ Será aberto nesta tela ao clicar em algum dos cards de algum pet. É onde ficar
 Durante a etapa de idealização do nosso projeto, utilizamos o método de
 “Design Thinking” , que foi organizado pela plataforma “Miro”. Com ele, entender os fatores que definem o nosso problema, e, com isso, pensar nas melhores soluções para a pauta em questão “os pets perdidos”. Na etapa de desenvolvimento, dentro dos moldes do Scrum, no qual o trabalho é organizado por sprints, reuniões com periodicidade semanal e liberação de resultados incrementais ao longo do tempo. Nesse processo, organizamos nossas pendências e afazeres pelo quadro do Kanban, na plataforma “Trello".
 
-*Ambiente de Trabalho:*
--> Repositório de código fonte: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos
--> Documentos do Projeto: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos/tree/master/docs
--> Projetos de Wireframe: "link"
--> Gerenciamento do Projeto: https://trello.com/b/4O1ZILQt/kanban-tiaw-pets-perdidos
+*Ambiente de Trabalho:* \
+-> Repositório de código fonte: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos \
+-> Documentos do Projeto: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos/tree/master/docs \
+-> Projetos de Wireframe: "link" \
+-> Gerenciamento do Projeto: https://trello.com/b/4O1ZILQt/kanban-tiaw-pets-perdidos 
 
 
 ## Divisão de Papéis
 
 *Gerenciamento do Projeto*
 -> Foi utilizado o método ágil Scrum para o desenvolvimento desse projeto.
-Equipe:
+Equipe: \
 -> Scrum Master: Rommel Vieira Carneiro
->Equipe de desenvolvimento: 
->Alice Rodrigues
->Juliana Serra
->Lucas Tabosa
->Rafael Vitoretti
->Sophia Rocha
+>Equipe de desenvolvimento: \
+>Alice Rodrigues \
+>Juliana Serra \
+>Lucas Tabosa \
+>Rafael Vitoretti \
+>Sophia Rocha \
 >Vinícius Gonzaga 
 
-A organização do projeto foi dividida em categorias no quadro do Kanban sendo elas:
+A organização do projeto foi dividida em categorias no quadro do Kanban sendo elas: 
 
--> Backlog: Nesse quadro é mantido todas as tarefas que devem ser feitas até o final da sprint, onde cada integrante da equipe de desenvolvimento seleciona no máximo dois itens por vez para ser feito.
--> Para Fazer: Nesse quadro fica os itens selecionados pelo integrante que ainda deve ser feito.
--> Fazendo: Nesse quadro fica a tarefa que está feita pelo integrante que a selecionou.
--> Checagem de Qualidade: Nesse quadro fica as tarefas que já foram concluídas mas antes devem ser conferidas por outro desenvolvedor para corrigir erros se necessário que não foram observados anteriormente.
--> Feito: Nesse quadro fica todas as tarefas que já foram feitas pela equipe de desenvolvimento.
+-> Backlog: Nesse quadro é mantido todas as tarefas que devem ser feitas até o final da sprint, onde cada integrante da equipe de desenvolvimento seleciona no máximo dois itens por vez para ser feito. \
+-> Para Fazer: Nesse quadro fica os itens selecionados pelo integrante que ainda deve ser feito. \
+-> Fazendo: Nesse quadro fica a tarefa que está feita pelo integrante que a selecionou. \
+-> Checagem de Qualidade: Nesse quadro fica as tarefas que já foram concluídas mas antes devem ser conferidas por outro desenvolvedor para corrigir erros se necessário que não foram observados anteriormente. \
+-> Feito: Nesse quadro fica todas as tarefas que já foram feitas pela equipe de desenvolvimento. 
 
 
 ## Ferramentas
