@@ -193,7 +193,7 @@ Durante a etapa de idealização do nosso projeto, utilizamos o método de
 *Ambiente de Trabalho:* \
 -> Repositório de código fonte: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos \
 -> Documentos do Projeto: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos/tree/master/docs \
--> Projetos de Wireframe: "link" \
+-> Projetos de Wireframe: https://marvelapp.com/whiteboard/9xfI03O8t9Jztda6SKnO \
 -> Gerenciamento do Projeto: https://trello.com/b/4O1ZILQt/kanban-tiaw-pets-perdidos 
 
 
