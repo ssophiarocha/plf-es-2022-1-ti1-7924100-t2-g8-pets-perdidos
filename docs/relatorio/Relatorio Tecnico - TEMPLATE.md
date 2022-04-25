@@ -226,7 +226,7 @@ A organização do projeto foi dividida em categorias no quadro do Kanban sendo 
 |-----------|-------------------------|---------------|
 |Documentos do Projeto|GitHub|https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos/tree/master/docs|
 |Repositório de código|GitHub|https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g8-pets-perdidos| 
-|Projetos de Wireframe:|Canva|link| 
+|Projetos de Wireframe:|Canva|https://marvelapp.com/whiteboard/9xfI03O8t9Jztda6SKnO| 
 |Gerenciamento do Projeto:|Trello|https://trello.com/b/4O1ZILQt/kanban-tiaw-pets-perdidos| 
 
 
