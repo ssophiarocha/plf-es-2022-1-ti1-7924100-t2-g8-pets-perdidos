@@ -175,11 +175,14 @@ Será aberto nesta tela ao clicar em algum dos cards de algum pet. É onde ficar
 
 ## Wireframes
 
-![**Wireframe da página de Login**](/images/Wireframe - login.png)
+**Wireframe da página de Login**
+> ![Wireframe - login](https://user-images.githubusercontent.com/80273083/165005290-041d2a91-4422-4981-88e3-23476ec95427.png)
 
-![**Wireframe da página de Ver Mais**](/images/Wireframe - vermais.png)
+**Wireframe da página de Ver Mais**
+> ![Wireframe - vermais](https://user-images.githubusercontent.com/80273083/165005270-4b1e1af6-c11e-481a-b95f-904d02db8575.png)
 
-![**Wireframe da página Principal**](/images/Wireframe - paginaprincipal.png)
+**Wireframe da página Principal**
+> ![Wireframe - paginaprincipal](https://user-images.githubusercontent.com/80273083/165005217-47780c7a-7a3c-43c4-a0a5-52f545d659c3.png)
 
 
 # Metodologia
