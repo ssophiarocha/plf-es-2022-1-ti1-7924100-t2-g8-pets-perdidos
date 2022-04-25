@@ -130,6 +130,7 @@ A funcionalidade do projeto é mediada através de requisitos feitos pelo client
 |RNF-001| Ambos os cadastros não devem demorar mais de 5 minutos | MÉDIA | 
 |RNF-002| Deve haver interação com algumas ferramentas (ex: gmail) para facilitar o login |  ALTA | 
 |RNF-003| O carregamento de qualquer informação deve demorar até três segundos | MÉDIA |
+|RNF-004| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA |
 
 ## Restrições
 
