@@ -1,0 +1,152 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    h1{color: white; font-size: 1.5em;}
+    body{background-color: #d6c159;}
+    #div-header{
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: .3em;
+        padding-bottom: .3em;
+        width: 100%;
+        background-color: #78bae0;
+
+    }
+    #faixa2{
+        width: 100%;
+        height: 2px;
+        background-color:   #46a4cc ;
+    }
+    #div-main{
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+        
+    }
+    #div-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #b9d8eb;
+        border-radius: 10px;
+        width: 80%;
+        max-width: 900px;
+        margin-bottom: 2em;
+    }
+    #cadastro{
+        margin-top: .5em;
+        color: #2a9bcc
+    }
+    #div-sucesso{
+        margin-top: 1em;
+        color: #145700;
+        background-color: #c7f7ba;
+        display: none;
+    }
+    #div-falha{
+        margin-top: 1em;
+        color: red;
+        background-color: #facaca;
+        display: none;
+    }
+    #campos{
+        width: 80%;
+        margin-top: 1.3em;
+        display: flex;
+        gap: 1em;
+    }
+    #form1{
+        width: 100%;
+    }
+    #form2{
+        width: 100%;
+    }
+    #div-proximo{
+        width: 50%;
+        display: block;
+        margin-bottom: 2em;
+    }
+    #proximo{
+        color: white;
+        margin-top: 2em;
+        background-color: #2a9bcc;
+        width: 100%;
+    }
+    .label{
+        color: #2a9bcc;
+    }
+    .div-input{
+        width: 100%;
+        text-align: left;
+    }
+    #idade{
+        width: calc(100% + 4px);
+        height: 2.3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: .3em;
+    }
+    .input{
+        width: 100%;
+        height: 2em;
+        border: 2px solid #2a9bcc;
+    }
+    .input:focus{
+        outline: none;
+    }
+
+    #p-conta{
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    #estado{
+        width: calc(100% + 4px);
+        height: 2.3em;
+    }
+    #genero{
+        width: calc(100% + 4px);
+        height: 2.3em;
+    }
+    #idade-dia{
+        width: calc(100% + 4px);
+        height: 2.3em;
+    }
+    #idade-mes{
+        width: calc(100% + 4px);
+        height: 2.3em;
+    }
+    #idade-ano{
+        width: calc(100% + 4px);
+        height: 2.3em;
+    }
+    #faixa3{
+        width: 100%;
+        height: 2em;
+        background-color: #c3edf7;
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #fim{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+    #texto-rodape{
+        font-size: 0.7em;
+    }
+@media screen and (max-width: 600px){
+    #campos{
+        width: 80%;
+        margin-top: 1.3em;
+        display: grid;
+    }
+
+
+}

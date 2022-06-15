@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro FindMe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div-header">
+        <h1>Find Me</h1>
+    </div>
+    <div id="faixa2"></div>
+    <div id="div-main">
+        <div id="div-form">
+            <h2 id="cadastro">Criar Conta</h2>
+            <div id="div-sucesso">Criando Usuário</div>
+            <div id="div-falha">Preencha os campos corretamente</div>
+            <div id="campos">
+                <form id="form1">
+                    <div class="div-input">
+                        <label for="inputNome" id="labelnome" class="label">Nome</label>
+                        <input id="inputNome" class="input" type="text" placeholder="" name="nome">
+                    </div>
+                    <div class="div-input">
+                        <label for="inputEmail" id="labelemail" class="label">Email</label>
+                        <input id="inputEmail" class="input" type="email" placeholder="" name="email">
+                    </div>
+                    <div class="div-input">
+                        <label for="inputSenha" id="labelsenha" class="label">Senha</label>
+                        <input id="inputSenha" class="input" type="password" placeholder="" name="senha">
+                    </div>    
+                    <div class="div-input">
+                        <label for="inputConfSenha" id="labelconfsenha" class="label">Confirmar Senha</label>
+                        <input id="inputConfSenha" class="input" type="password" placeholder="" name="confirmacao-senha">
+                    </div>
+                    <div class="div-input">
+                        <label for="cpf" class="label" id="label-cpf">CPF</label>
+                        <input id="cpf" class="input" type="number" name="cpf" placeholder="999.999.999-99">
+                    </div>
+                    <div class="div-input">
+                        <label for="estado" id="label-estado" class="label">Estado/UF</label>
+                        <select id="estado" name="estado" class="input">
+                            <option value="" disabled selected>Selecione um Estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ" >Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                    <div class="div-input">
+                        <label for="cidade" id="label-cidade" class="label">Cidade</label>
+                        <input class="input" id="cidade" type="text">
+                    </div>
+                </form>
+
+                <form id="form2">
+                    <div class="div-input">
+                        <label for="bairro" id="label-bairro" class="label">Bairro</label>
+                        <input class="input" id="bairro" type="text">
+                    </div>
+                          
+                    <div class="div-input">
+                        <label for="rua" id="label-rua" class="label">Rua</label>
+                        <input class="input" id="rua" type="text">
+                    </div>
+                        
+                    <div class="div-input">
+                        <label for="numero-rua" id="label-numero-rua" class="label">N° de Endereço</label>
+                        <input class="input" id="numero-rua" type="number">
+                    </div>
+
+                    <div class="div-input">
+                        <label for="numero-apto" id="label-numero-apto" class="label">Complemento</label>
+                        <input class="input" id="numero-apto" type="text" placeholder="ex: apto 111">
+                    </div>
+
+                    <div class="div-input">
+                        <label for="numero-celular" id="label-numero-celular" class="label">Número de Celular</label>
+                        <input class="input" id="numero-celular" type="number" placeholder="(DDD)99999-9999">
+                    </div>
+                        
+                    <div class="div-input">
+                        <label for="idade" id="label-idade" class="label">Data de Nascimento</label>
+                        <div id="idade">
+                            <select id="idade-dia" class="input">
+                                <option value="" disabled selected>Dia</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+            
+                            <select id="idade-mes" class="input">
+                                <option value="" disabled selected>Mês</option>
+                                <option value="Janeiro">Janeiro</option>
+                                <option value="Fevereiro">Fevereiro</option>
+                                <option value="Março">Março</option>
+                                <option value="Abril">Abril</option>
+                                <option value="Maio">Maio</option>
+                                <option value="Junho">Junho</option>
+                                <option value="Julho">Julho</option>
+                                <option value="Agosto">Agosto</option>
+                                <option value="Setembro">Setembro</option>
+                                <option value="Outubro">Outubro</option>
+                                <option value="Novembro">Novembro</option>
+                                <option value="Dezembro">Dezembro</option>
+                            </select>
+            
+                            <select id="idade-ano" class="input">
+                                <option value="" disabled selected>Ano</option>
+                                <option value="2005">2005</option>
+                                <option value="2004">2004</option>
+                                <option value="2003">2003</option>
+                                <option value="2002">2002</option>
+                                <option value="2001">2001</option>
+                                <option value="2000">2000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="div-input">
+                        <label for="genero" id="label-genero" class="label">Gênero</label>
+                        <select id="genero" class="input">
+                            <option value="" disabled selected>Selecione um Gênero</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="masculino">Feminino</option>
+                            <option value="masculino">Não identificar</option>
+                        </select>
+                    </div>
+                </form>
+
+
+                
+            </div>
+            <div id="div-proximo"><input id="proximo" class="input" type="button" value="Próximo" onclick="cadastro()"></div>
+            <p id="p-conta">Já possui uma conta? <a id="link-login" href="../TIAW - Login/index.html"> Faça login</a></p>
+        </div>
+    </div>
+    <footer id="fim">
+        <div id="faixa3">
+            <p id="texto-rodape">Direitos Autorais Find Me 2022</p>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"> </script>
+</body>
+</html>
