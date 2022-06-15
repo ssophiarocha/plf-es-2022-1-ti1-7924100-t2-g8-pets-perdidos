@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d6c159;
+}
+h2{
+    color: white;
+    font-size: 1.5em;
+}
+
+#div-header{
+    width: 100%;
+    background-color: #78bae0;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    width: 80%;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #78bae0;
+    padding-top: .8em;
+    padding-bottom: .8em;
+}
+#div-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+#div-links{
+    display: flex;
+    gap: 3em;
+}
+#container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+#user-name{
+    font-size: 1.2em;
+}
+#bio{
+    grid-area: "a1";
+    background-color: #b9d8eb;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1em;
+    min-width: 200px;
+    gap: .5em;
+}
+#pets-user{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+#pets-perdidos{
+    background-color: #b9d8eb;
+    width: 30em;
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
+    overflow: auto;
+}
+#pets-encontrados{
+    background-color: #b9d8eb;
+    width: 30em;
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    max-height: 350px;
+    flex-direction: column;
+    overflow: auto;
+}
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .3em;
+}
+#noticias-ongs{
+    grid-area: "a4";
+    background-color: #b9d8eb;
+    width: 20em;
+    border-radius: 10px;
+    padding: 1em;
+    min-width: 200px;
+}
+#add-pet-perdido{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+}
+.div-add-pet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b9d8eb;
+    height: 300px;
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 0 0 1em rgba(89, 89, 89, 0.364);
+}
+#add-pet-encontrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+}
+.div-button{
+    display: flex;
+    gap: 1em;
+}
+.button{
+    color: white;
+    margin-top: 2em;
+    background-color: #2a9bcc;
+    border-style: none;
+    height: 2em;
+    padding: .3em;
+    width: 7em;
+}
+.botao-adicionar{
+    color: white;
+    background-color: #2a9bcc;
+    border-style: none;
+    height: 2em;
+    padding: .3em;
+    width: 7em; 
+}
+.links-nav{
+    text-decoration: none;
+    list-style: none;
+    padding: .2em;
+}
+
+.links-nav:hover{
+    background-color: #b9d8eb;
+    color: #000000;
+    padding: .2em;
+    border-radius: 5px;
+}
+#noticias{
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+}

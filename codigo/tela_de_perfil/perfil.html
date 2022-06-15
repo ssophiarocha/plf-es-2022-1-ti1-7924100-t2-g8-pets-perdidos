@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <a href="https://www.flaticon.com/free-icons/inbox" title="inbox icons">Inbox icons created by Kiranshastry - Flaticon</a> -->
+    <!-- <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Royyan Wijaya - Flaticon</a> -->
+    <!-- <a href="https://www.flaticon.com/free-icons/notification" title="notification icons">Notification icons created by ghufronagustian - Flaticon</a> -->
+    <!-- <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a> -->
+    <title>Perfil</title>
+</head>
+<body>
+    <div id="div-header">
+        <div id="container">
+
+            <header>
+                <h2>Find Me</h2>
+                <nav>
+                    <div id="div-links">
+                    <a href="#inicio" class="links-nav">Início</a>
+                    <a href="#meus-pets" class="links-nav">Meus Atividade</a>
+                    <a href="#como-funciona" class="links-nav">Como Funciona</a>
+                    <a href="#colaboradores" class="links-nav">Colaboradores</a>
+                    <a href="#sobre-noa" class="links-nav">Sobre Nós</a>
+                    <div id="#div-icons">
+                        <img src="./images/inbox.png" width="20px" onclick="inbox()">
+                        <img src="./images/search.png" width="20px" onclick="buscar()">
+                        <img src="./images/bell.png" width="20px" onclick="notificoes()">
+                    </div>
+                    </div>
+                </nav>
+                <a href="#perfil" class="links-nav">Perfil</a>
+            </header>
+            
+
+        </div>
+
+    </div>
+
+    <div id="add-pet-perdido">
+        <div class="div-add-pet">
+            <p>Desculpe, mas essa parte ficou com outro integrante do grupo :/</p>
+            <div class="div-button">
+                <button class="button" onclick="cancel('add-pet-perdido')">Cancelar</button>
+                <button class="button" onclick="addPet()">Salvar</button>
+            </div>
+            
+        </div>
+    </div>
+    <div id="add-pet-encontrado">
+        <div class="div-add-pet">
+            <p>Desculpe, mas essa parte ficou com outro integrante do grupo :/</p>
+            <div class="div-button">
+                <button class="button" onclick="cancel('add-pet-encontrado')">Cancelar</button>
+                <button class="button" onclick="addPet()">Salvar</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="container-main">
+        <main>
+            <div id="bio">
+                <img src="./images/user.png" width="100px">
+                <p><b id="user-name">Nome do usuário</b></p>
+                <hr>
+                <p id="biografio">Bio... <img onclick="editarBio()" src="./images/pencil.png" width="15px"></p>
+                
+            </div>
+
+            <div id="pets-user">
+                <div id="pets-perdidos" id="pet-perdido">
+                    <div class="title">
+                        <h3>Meus Pets Perdidos</h3>
+                        <button class="botao-adicionar"onclick="addPetPerdido()">Adicionar</button>
+                    </div>
+                    <hr>
+
+                </div>
+                <div id="pets-encontrados" id="pet-encontrado">
+                    <div class="title">
+                        <h3>Pets Encontrados por Mim</h3>
+                        <button class="botao-adicionar" onclick="addPetEncontrado()">Adicionar</button>
+                    </div>
+                    <hr>
+
+                </div>
+            </div>
+            
+            <div id="noticias-ongs">
+                <h3>Notícias</h3>
+                <div id="noticias">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At laudantium autem assumenda magnam</p>
+                    <hr>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis officia ratione sunt et non voluptas obcaecati.</p>
+                    <hr>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
