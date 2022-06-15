@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste Completo!</h1>
+    <p id="ola"></p>
+    <button onclick="sair()">Sair</button>
+    <script>
+        var ola = document.getElementById("ola");
+
+        if(localStorage.getItem("validacao") == null){
+            alert("Sessão Expirada, faça Login Novamente");
+            window.location.href = "./index.html";
+        }
+
+        let user = JSON.parse(localStorage.getItem("user"));
+        console.log(user);
+        nome = user.nome;
+        ola.innerHTML = "Seja Bem-vindo(a) " + nome;
+
+        let sair = function(){
+            localStorage.removeItem("validacao");
+            localStorage.removeItem("user");
+            window.location.href = "./index.html";
+        }
+    </script>
+</body>
+</html>

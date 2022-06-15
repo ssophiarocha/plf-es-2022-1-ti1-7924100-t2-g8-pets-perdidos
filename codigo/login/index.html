@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Find Me</title>
+</head>
+<body>
+    <header id="inicio">
+        <div id="faixa">
+            <h1>Find Me</h1>
+        </div>
+    </header>
+    <main id="meio">
+        <div id="principal">
+            <div id="faixa2"></div>
+            <div id="caixa">
+                <div id="caixinha">
+                    <div id="titulo">
+                        <h2>LOGIN</h2>
+                    </div>
+                    
+                    <form id="formulario">
+                        <div id="error">
+                            <p id="msg-error">email ou senha incorretos</p>
+                        </div>
+                        <div id="sucesso">
+                            <p id="msg-sucesso">entrando...</p>
+                        </div>
+                        <div class="div-input">
+                            <label class="label" id="label-do-email" for="email">Insira seu email</label>
+                            <input id="email" type="email" class="input" onkeyup="validarEmail()">
+                        </div>
+                        <div class="div-input">
+                            <label class="label" id="label-da-senha" for="senha">Insira sua senha</label>
+                            <input id="senha" type="password" class="input">
+                            <a id="link-esqueci-senha" href="#">Esqueci minha senha</a>
+                        </div>
+                        <div id="div-botao">
+                            <input id="botao" type="button" value="Entrar" onclick="entrar()">
+                            <p id="nova-conta">Não possui uma conta? <a id="link-nova-conta" href="../TIAW - Cadastro/cadastro1.html">Clique Aqui</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="fim">
+        <div id="faixa3">
+            <p id="texto-rodape">Direitos Autorais Find Me 2022</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
