@@ -1,0 +1,123 @@
+<html>
+    <html lang="pt-br">
+
+
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+          <link rel="stylesheet" href="showpet.css">
+          <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+          <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+          <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+          <title>Find Me</title>
+        </head>
+
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="menu">
+               <div class="row">
+                    <div class="span12">
+                        <div class="head">
+                            <div class="row-fluid">
+                                <div class="span12">
+                                    <div class="span6">
+                                        <h1 class="muted"><img src="./img/logo.png"></h1>
+                                            </div>
+                                            <div class="span4 offset2" style="margin-top:15px;">
+                                        <button class="botao" type="button">Login/Cadastre-se</button>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="navbar">
+                           <div class="navbar-inner">
+                                <div class="container">
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a href="#cadastro-pet">Cadastre um Pet</a>
+                                                </li>
+                                                    <li class="nav-item">
+                                                        <a href="#como-funciona">Como funciona</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                        <a href="#colaboradores">Colaboradores</a>
+                                                    </li>
+                                                <li class="nav-item">
+                                            <a href="#sobre">Sobre nós</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ti-icons@0.1.2/css/themify-icons.css">
+    <div id="divDetalhesPet">
+
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <script>
+    const params = new URLSearchParams(location.search);
+    let id = params.get('id');
+    dadosPets = JSON.parse(localStorage.getItem('db_pets'));
+    let idxPet = dadosPets.results.findIndex((elem) => elem.id == id)
+    
+    if (idxPet > -1){
+        let pet = dadosPets.results[idxPet];
+    document.getElementById('divDetalhesPet').innerHTML =  `
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-7 col-lg-4 mb-5 mb-lg-0 wow fadeIn">
+            <div class="card border-0 shadow">
+                <img src="https://image.tmdb.org/t/p/w500/${pet.backdrop_path}" alt="...">
+                <div class="card-body p-1-9 p-xl-5">
+                    <div class="mb-4">
+                        <h3 class="h4 mb-0">${pet.title}</h3>
+                        <span class="text-primary">SRD</span>
+                    </div>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-3"><a href="#!"><i class="far fa-envelope display-25 me-3 text-secondary"></i>Futuro e-mail</a></li>
+                        <li class="mb-3"><a href="#!"><i class="fas fa-mobile-alt display-25 me-3 text-secondary"></i>Futuro telefone</a></li>
+                        <li><a href="#!"><i class="fas fa-map-marker-alt display-25 me-3 text-secondary"></i>205 Main Street, USA</a></li>
+                    </ul>
+                    <ul class="social-icon-style2 ps-0">
+                        <li><a href="#!" class="rounded-3"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#!" class="rounded-3"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#!" class="rounded-3"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#!" class="rounded-3"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="ps-lg-1-6 ps-xl-5">
+                <div class="mb-5 wow fadeIn">
+                    <div class="text-start mb-1-6 wow fadeIn">
+                        <h2 class="h1 mb-0 text-primary">Sobre</h2>
+                    </div>
+                    <p><strong>INFORMAÇÔES GERAIS: </strong>${pet.overview}. // 
+                    <strong>Raça: </strong> Sem raça definida // 
+                    <strong>Cor: </strong>Caramelo</p>
+
+                </div>
+                </div>
+    
+    `
+    }
+
+    else{
+        alert('filme não encontrado')
+    }
+   </script>
+
+</body>
+</html>
